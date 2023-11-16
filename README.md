@@ -6,7 +6,6 @@ This project implements a simulation of the Gray-Scott reaction-diffusion system
 ## Structure
 The project is structured as follows:
 ```
-.
 ├── CMakeLists.txt
 ├── external
 │   ├── googletest
@@ -46,7 +45,11 @@ To build the simulation, follow these steps:
 After building the simulation, you can run it by executing the `MainProgram` from the build directory.
 
 ## Running Tests
-To ensure the correctness of the simulation, several unit tests have been included. These can be run by executing the `GSTest` binary in the build directory.
+To ensure the correctness of the simulation, several unit tests have been included. These can be run by executing the `GSTest` binary in the build directory. To run the tests, use the following command:
+   ```
+   ./GSTest
+   ```
+This will execute all unit tests and provide a summary of the test results.
 
 ## Contributing
 Contributions to the project are welcome. If you would like to contribute, please fork the repository and submit a pull request with your changes.
